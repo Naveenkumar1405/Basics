@@ -1,0 +1,51 @@
+       body
+		{
+			background-color: black;
+		}
+       
+	input,select,textarea
+		{
+			margin: auto;
+			border: 0px;
+			display: block;
+            color: gold;
+			outline: 0px;
+			padding: 10	px;
+			width: 300px;
+			margin-bottom: 20px;
+			background-color: black;
+			font-family: sans-serif;
+			border-bottom: 2px solid gold;
+		}
+		::placeholder
+		{
+             color: gold;
+		}
+		.icon
+		{
+			color: gold;
+			text-align: center;
+			font-size: 200px;
+
+		}
+		#submit
+		{
+			transition: box-shadow .10s;
+		    background-color: gold;
+		    border: 20px ridge gold;
+		    border-radius: 100px;
+		    color: black;
+		    font-size: 30px;
+		    font-family: fantasy;
+		}
+		fieldset
+		{
+			color:gold;
+			border: 20px inset gold;
+			border-radius: 100%;
+			margin-top: -20px; margin-bottom: -20px;
+		}
+		#submit:hover,input:hover,select:hover,textarea:hover
+		{
+			box-shadow:0 0 30px gold ;
+		}

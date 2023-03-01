@@ -1,0 +1,47 @@
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: black !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 100%;
+}
+.hr-dark {
+  border-top: 6px solid black;
+  width: 100%;
+}
